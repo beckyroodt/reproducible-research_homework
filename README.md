@@ -1,5 +1,8 @@
 # Reproducible research: version control and R
 
+# 1, 2 and 3:
+https://github.com/beckyroodt/logistic_growth
+
 # **4) Brownian motion**
 
 ### Observations from random_walk:
