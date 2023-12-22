@@ -1,6 +1,43 @@
 # Reproducible research: version control and R
 
-\# INSERT ANSWERS HERE #
+# 1, 2 and 3:
+https://github.com/beckyroodt/logistic_growth
+
+# **4) Brownian motion**
+
+### Observations from random_walk:
+
+* The data for each walk used the exact same code- each plot represents a random walk with 500 steps, starting from the origin.
+* However each walk was different
+    * (Therefore this data was not reproducible)
+    * This is because the randomness in the steps results in different patterns for each random walk.
+    * Due to the use of the "runif" function
+* Both walks started at higher y-coordinates and ended farther down the graph with the passage of time
+* Both walks were very tortuous with many turns, and looped back on themselves often-
+    * this may be due to the relatively smaller step size of 0.25
+* In essence, both walks appeared random
+
+* The paths in each plot are colored based on the time steps, showing the progression of the walk.
+
+
+## What is a random seed and how does it work?
+### What it is:
+* A random seed is an initial input given to a random number generator (RNG) algorithm so that it produces a random-appearing sequence of numbers
+* If you use the same seed, the idea is that you will get the same sequence of random numbers with every run of the program
+### How it works:
+* Random number generators aren't entirely random
+* They are deterministic, the initial state of the algorithm determines the sequence of numbers.
+  * The alrogrithm produces sequences of numbers which mimic randomness.
+* Setting the Seed:
+  * This means initialising the intermal state of the RNG, the starting point for generating a sequence of seemingly random numbers.
+* Seeds are very helpful for reproducibility.
+* Setting a seed allows others to reproduce the same results
+
+  ## Commit History:
+![Commit History 1](Commit1.PNG?raw=true "Commit History")  
+![Commit History 2](Commit2.PNG?raw=true "Commit History")  
+![Commit History 3](Commit3.PNG?raw=true "Commit History")  
+![Commit History 4](Commit4.PNG?raw=true "Commit History")  
 
 ## Instructions
 
