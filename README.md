@@ -40,7 +40,54 @@ https://github.com/beckyroodt/logistic_growth
 ![Commit History 4](Commit4.PNG?raw=true "Commit History")  
 
 # 5) Virology
-### Rows and columns within the data: 33 rows, 13 columns
+### Rows and columns within the data:  
+33 rows, 13 columns.  
+### What transformation can you use to fit a linear model to the data? Apply the transformation.  
+Need to convert genome length and virion volume to their natural log values.  
+### Exponent and scaling factor for the allometric law for dsDNA viruses:  
+Exponent: 1.5152
+Scaling factor: 1181.807
+Whilst my exponent was within the range published in table 2 of the paper, the scaling factor I obtained was just below it. Both results wre highly significant (p<0.001)  
+### Write the code to produce the figure seen at the bottom of this readme document:
+
+### What is the estimated volume of a 300 kb dsDNA virus?  
+5377.614
+
+# Bonus: 
+### Difference between reproducibility and replicability in scientific research: 
+Reproducibility:
+
+* Reproducibility refers to the ability to obtain consistent results when an experiment or study is conducted by different researchers, using the same methods, materials, and conditions.
+* It emphasizes the idea that the same study or experiment can be repeated by different researchers, following the original procedures, and should yield similar results.
+* Reproducibility is crucial for validating scientific findings and ensuring that results are not specific to the original researcher or laboratory. It helps establish the robustness of the reported findings.
+
+Replicability:
+
+
+* Replicability refers to the ability to achieve similar results when an experiment or study is independently repeated, often with some variations in methods, materials, or conditions.  
+* While replicability involves conducting the same experiment again, it allows for some degree of flexibility or variation in the details of the methodology. The goal is to assess whether the general findings can be observed under slightly different conditions.  
+* Replicability helps to verify the generalizability of research findings and assess the robustness of the results across different contexts. * It acknowledges that, in practice, experiments may need to be adapted or modified for various reasons.
+
+  
+In summary, reproducibility focuses on conducting the exact same experiment or study under the same conditions to obtain consistent results, whereas replicability involves conducting a similar experiment with some variations to assess the generalizability of the findings. Both concepts are important for building confidence in scientific research and ensuring that results are reliable and applicable beyond the original study.  
+
+### How can git and GitHub be used to enhance the reproducibility and replicability of your work? What limitations do they have?    
+Enhancing Reproducibility:  
+
+* Version Control: Git allows you to track changes in your code, scripts, and documents over time. This ensures that others can access the exact version of your work that led to specific results.
+* Code Sharing: GitHub serves as a central repository for hosting code. Others can easily clone your repository, reproduce your analyses, and verify your results by running the same code.  
+Enhancing Replicability:  
+
+* Forking and Branching: Collaborators can fork your repository to create their own copy, enabling them to make modifications or improvements without affecting the original code. Branching allows for the development of alternative versions of the code or experimentation with different parameters.
+* Issues and Discussions: GitHub's issue tracker and discussion features facilitate communication among collaborators. This can be used to document changes, discuss variations in experimental setups, and provide context on different implementations.  
+Limitations:  
+
+* Data Storage: While Git and GitHub are excellent for managing code, they might not be the best solution for large datasets due to storage limitations. It's essential to use external data repositories or tools like Git LFS (Large File Storage) for handling large files.
+  * It is also important to note the environmental i,pact of storing such large amounts of data on cloud storage. People may not consider the amount of storage their work is taking up if it is not directly on their computer, but running the hardware to store all of this data requires a lot of power, especially if people aren't deleting forks/ data from updates that are old and no longer in use.  
+* File Size: Very large files may impact the efficiency of cloning and pulling repositories, potentially causing delays in collaboration and hindering the ease of reproducing results.
+* Lack of Privacy: Public repositories on GitHub are accessible to anyone. While this openness encourages collaboration, it may not be suitable for sensitive or unpublished work. GitHub does offer private repositories, but they may require a subscription.
+
+
 ## Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points (plus an optional bonus question worth 10 extra points). First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
