@@ -1,7 +1,5 @@
 # Reproducible research: version control and R
 
-## Still to od: compare code w leah, upload code from Q5 and delete this line!
-
 # 1, 2 and 3:
 https://github.com/beckyroodt/logistic_growth
 
