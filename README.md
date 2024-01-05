@@ -124,4 +124,30 @@ Questions 1, 2 and 3 should be answered in the **README.md** file of the `logist
 
   - What is the estimated volume of a 300 kb dsDNA virus? (4 points)
 
-**Bonus** (**10 points**) Explain the difference between reproducibility and replicability in scientific research. How can git and GitHub be used to enhance the reproducibility and replicability of your work? what limitations do they have? (e.g. check the platform [protocols.io](https://www.protocols.io/)).
+**Bonus** (**10 points**) Explain the difference between reproducibility and replicability in scientific research. How can git and GitHub be used to enhance the reproducibility and replicability of your work? what limitations do they have? (e.g. check the platform [protocols.io](https://www.protocols.io/)).  
+
+Reproducibility:
+
+Definition: Reproducibility refers to the ability to obtain consistent results when an experiment or study is conducted by different researchers, using the same methods, materials, and conditions.
+Focus: It emphasizes the idea that the same study or experiment can be repeated by different researchers, following the original procedures, and should yield similar results.
+Importance: Reproducibility is crucial for validating scientific findings and ensuring that results are not specific to the original researcher or laboratory. It helps establish the robustness of the reported findings.
+Replicability:
+
+Definition: Replicability refers to the ability to achieve similar results when an experiment or study is independently repeated, often with some variations in methods, materials, or conditions.
+Focus: While replicability involves conducting the same experiment again, it allows for some degree of flexibility or variation in the details of the methodology. The goal is to assess whether the general findings can be observed under slightly different conditions.
+Importance: Replicability helps to verify the generalizability of research findings and assess the robustness of the results across different contexts. It acknowledges that, in practice, experiments may need to be adapted or modified for various reasons.
+Enhancing Reproducibility:  
+
+How github can be used to enhance reproducibility and replicability and its limitations:  
+
+Version Control: Git allows you to track changes in your code, scripts, and documents over time. This ensures that others can access the exact version of your work that led to specific results.
+Code Sharing: GitHub serves as a central repository for hosting code. Others can easily clone your repository, reproduce your analyses, and verify your results by running the same code.
+Enhancing Replicability:
+
+Forking and Branching: Collaborators can fork your repository to create their own copy, enabling them to make modifications or improvements without affecting the original code. Branching allows for the development of alternative versions of the code or experimentation with different parameters.
+Issues and Discussions: GitHub's issue tracker and discussion features facilitate communication among collaborators. This can be used to document changes, discuss variations in experimental setups, and provide context on different implementations.
+Limitations:
+
+Data Storage: While Git and GitHub are excellent for managing code, they might not be the best solution for large datasets due to storage limitations. It's essential to use external data repositories or tools like Git LFS (Large File Storage) for handling large files.
+File Size: Very large files may impact the efficiency of cloning and pulling repositories, potentially causing delays in collaboration and hindering the ease of reproducing results.
+Lack of Privacy: Public repositories on GitHub are accessible to anyone. While this openness encourages collaboration, it may not be suitable for sensitive or unpublished work. GitHub does offer private repositories, but they may require a subscription.
